@@ -37,9 +37,9 @@ Com ajuda do chatGPT gerei uma tabela fictícia de dados totalizando a quantidad
 
 4. Treinamento do Modelo (Exemplo usando Automated ML)
 
-    - [ ] Criar um novo Job de ML Automatizado: Inicie um novo experimento escolhendo o tipo de tarefa como Regressão.
-    - [ ] Definir a Coluna Alvo (Target): Selecione o dataset criado e aponte qual coluna o modelo deve aprender a prever (no caso, a coluna de `total_de_sorvetes_vendidos`).
-    - [ ] Configurar Parâmetros e Computação: Defina limites de tempo para o treinamento (ex: 15 minutos) e selecione o Compute Cluster criado no passo 2. Submeta o job para execução.
+    - [x] Criar um novo Job de ML Automatizado: Inicie um novo experimento escolhendo o tipo de tarefa como Regressão.
+    - [x] Definir a Coluna Alvo (Target): Selecione o dataset criado e aponte qual coluna o modelo deve aprender a prever (no caso, a coluna de `total_de_sorvetes_vendidos`).
+    - [x] Configurar Parâmetros e Computação: Defina limites de tempo para o treinamento (ex: 15 minutos) e selecione o Compute Cluster criado no passo 2. Submeta o job para execução.
 
 5. Disponibilização do Modelo em Endpoint (API)
 
@@ -61,4 +61,10 @@ Azure Machine Learning WorkSpace: `AZML-DIO-desafio1`
 3. Preparação dos Dados
 <img width="1817" height="947" alt="Captura de tela 2026-03-03 165316" src="https://github.com/user-attachments/assets/dd81a5d9-31ec-443c-8c17-2579e17d601f" />
 
-4. 
+4. Treinamento do Modelo (Exemplo usando Automated ML)
+   Início da configuração e execução do modelo   
+<img width="1895" height="1027" alt="image" src="https://github.com/user-attachments/assets/c373ceb2-ae7e-4a9c-971e-3bfab6076b9f" />
+   Job em execução
+<img width="1868" height="960" alt="image" src="https://github.com/user-attachments/assets/f6742435-f9a6-48a8-95e3-8bcd3e99ed46" />
+
+
