@@ -27,8 +27,8 @@ Com ajuda do chatGPT gerei uma tabela fictícia de dados totalizando a quantidad
 
 2. Configuração de Computação (Compute)
 
-     - [ ] Criar uma Instância de Computação (Compute Instance): No menu lateral, vá em Compute e crie uma instância (geralmente CPU) que servirá para você rodar testes e visualizar Notebooks.
-     - [ ] Criar um Cluster de Computação (Compute Cluster): Crie também um cluster dedicado. É ele que fará o trabalho pesado e processará o treinamento do seu modelo de forma escalável.
+     - [x] Criar uma Instância de Computação (Compute Instance): No menu lateral, vá em Compute e crie uma instância (geralmente CPU) que servirá para você rodar testes e visualizar Notebooks.
+     - [x] Criar um Cluster de Computação (Compute Cluster): Crie também um cluster dedicado. É ele que fará o trabalho pesado e processará o treinamento do seu modelo de forma escalável.
 
 3. Preparação dos Dados
 
@@ -54,8 +54,10 @@ Com ajuda do chatGPT gerei uma tabela fictícia de dados totalizando a quantidad
 
 Grupo de Recurso: `AZML-DIO-desafio1`
 Azure Machine Learning WorkSpace: `AZML-DIO-desafio1`
+2. Configuração de Computação (Compute)
+<img width="1832" height="936" alt="Captura de tela 2026-03-03 163127" src="https://github.com/user-attachments/assets/eae8beff-29ef-42e3-9a6e-a52c28a35bdd" />
+<img width="1846" height="868" alt="Captura de tela 2026-03-03 163223" src="https://github.com/user-attachments/assets/562f1d09-a9bf-4517-a049-b60aacb4eb09" />
 
-2. 
+
 3. 
 4. 
-5. 
