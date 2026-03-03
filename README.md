@@ -43,7 +43,7 @@ Com ajuda do chatGPT gerei uma tabela fictícia de dados totalizando a quantidad
 
 5. Disponibilização do Modelo em Endpoint (API)
 
-    - [ ] Selecionar o Melhor Modelo: Após o fim do treinamento, analise a lista de modelos gerados e escolha o que teve a melhor performance.
+    - [x] Selecionar o Melhor Modelo: Após o fim do treinamento, analise a lista de modelos gerados e escolha o que teve a melhor performance.
     - [ ] Realizar o Deploy (Implantação): Com o melhor modelo selecionado, clique na opção de "Deploy" para um Web service (ou Real-time).
     - [ ] Configurar o Contêiner: Escolha a opção de implantar usando uma instância de contêiner.
     - [ ] Testar e Consumir a API: Assim que o provisionamento terminar, o Azure fornecerá um Endpoint REST (um link) e uma chave de acesso. Você poderá usar esse endpoint para integrar o seu modelo preditivo a aplicativos da web, calculadoras ou outros sistemas.
@@ -66,5 +66,23 @@ Azure Machine Learning WorkSpace: `AZML-DIO-desafio1`
 <img width="1895" height="1027" alt="image" src="https://github.com/user-attachments/assets/c373ceb2-ae7e-4a9c-971e-3bfab6076b9f" />
    Job em execução
 <img width="1868" height="960" alt="image" src="https://github.com/user-attachments/assets/f6742435-f9a6-48a8-95e3-8bcd3e99ed46" />
+
+5. Disponibilização do Modelo em Endpoint (API)
+A escolha do melhor modelo: Analisando os resultados do treinamento **modelos +  trabalhos filhos** verificamos que o melhor modelo é "MinMaxScaler, ElasticNet." 
+Aqui está a justificativa detalhada com base nos dados apresentados:
+
+    **A Menor Taxa de Erro**: Em um modelo de regressão linear para prever vendas, o objetivo principal do algoritmo é encontrar a linha de tendência que possua o menor erro possível entre a previsão gerada e os dados reais históricos. O documento lista as pontuações de erro de vários modelos testados, e o MinMaxScaler, ElasticNet atingiu a menor pontuação de todas: 0.09259.
+    **Comparação Direta**: Enquanto o algoritmo vencedor cravou 0.09259, outros modelos apresentaram erros maiores, desde diferenças mínimas, como o "StandardScalerWrapper, ElasticNet" (0.09260), até diferenças mais significativas, como o "MinMaxScaler, RandomForest" (0.11974).
+
+   O Automated ML testa diversas combinações de algoritmos e hiperparâmetros (como o bootstrap, criterion, max_features, etc.) para encontrar a "solução ótima" basta comparar as informações obtidas. Portanto, para o projeto da Gelato Mágico, é exatamente o MinMaxScaler, ElasticNet que garantirá as previsões mais precisas de quantos sorvetes devem ser produzidos e o modelo ideal para você seguir com o Deploy (implantação)
+<img width="1833" height="940" alt="image" src="https://github.com/user-attachments/assets/9809469f-d8d9-4545-8173-5b5aa71af844" />
+Não foi possivel implementar em um endpoint devido ao erro: ResourceOperationFailure: Resource provider [N/A] isn't registered with Subscription [N/A].
+Será feito troubleshooting posterior para idendificar possiveis causas e corrigir o problema
+<img width="1857" height="935" alt="image" src="https://github.com/user-attachments/assets/fa5d8fe0-a05b-497d-a804-979d42426cc2" />
+
+Em função da dificuldadade durante o deploy o modelo foi colocado para teste para gerar alguns indicadores com a mesma base de dados utilizada no treinamento apenas para fins de conclusão do exercício
+<img width="1888" height="1045" alt="image" src="https://github.com/user-attachments/assets/15694153-cc9a-4484-9add-dcdb49081040" />
+
+
 
 
