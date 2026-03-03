@@ -21,9 +21,9 @@ Com ajuda do chatGPT gerei uma tabela fictícia de dados totalizando a quantidad
 
 1. Criação da Estrutura Básica
 
-    - [ ] Criar um Grupo de Recursos (Resource Group): É como se fosse uma pasta para organizar seus recursos na nuvem (ex: DIO_projeto_um).
-    - [ ] Criar o Workspace do Azure Machine Learning: Busque pelo serviço "Azure Machine Learning" e crie um novo workspace vinculado ao grupo de recursos criado. Componentes como conta de armazenamento e Application Insights serão criados automaticamente.
-    - [ ] Acessar o Workspace: Após o provisionamento, clique em "Launch" para entrar no painel do Azure Machine Learning (Studio).
+    - [x] Criar um Grupo de Recursos (Resource Group): É como se fosse uma pasta para organizar seus recursos na nuvem.
+    - [x] Criar o Workspace do Azure Machine Learning: Busque pelo serviço "Azure Machine Learning" e crie um novo workspace vinculado ao grupo de recursos criado. Componentes como conta de armazenamento e Application Insights serão criados automaticamente.
+    - [x] Acessar o Workspace: Após o provisionamento, clique em "Launch" para entrar no painel do Azure Machine Learning (Studio).
 
 2. Configuração de Computação (Compute)
 
@@ -49,3 +49,13 @@ Com ajuda do chatGPT gerei uma tabela fictícia de dados totalizando a quantidad
     - [ ] Testar e Consumir a API: Assim que o provisionamento terminar, o Azure fornecerá um Endpoint REST (um link) e uma chave de acesso. Você poderá usar esse endpoint para integrar o seu modelo preditivo a aplicativos da web, calculadoras ou outros sistemas.
 
 ## 🎨desenvolvimento e aprendizados
+1. Criação da Estrutura Básica
+<img width="1844" height="937" alt="Captura de tela 2026-03-03 162233" src="https://github.com/user-attachments/assets/0ecd57a8-7004-45f0-b168-11ce83284496" />
+
+Grupo de Recurso: `AZML-DIO-desafio1`
+Azure Machine Learning WorkSpace: `AZML-DIO-desafio1`
+
+2. 
+3. 
+4. 
+5. 
